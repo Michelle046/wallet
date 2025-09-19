@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 
- if (process.env.NODE_ENV ==="production")job.start(); // Start the cron job
+ if (process.env.NODE_ENV === "production")job.start(); // Start the cron job
 
 app.use(rateLimiter)
 app.use(express.json());
